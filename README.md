@@ -5,6 +5,7 @@
 This project implements a flight search agent that leverages the Agent Development Kit (ADK) as an MCP (Model Context Protocol) client and utilizes the Google Gemini 2.0 Flash model for natural language understanding and response generation. The agent interacts with an MCP server (which you will need to set up or integrate with) to retrieve flight information based on user queries. A Streamlit user interface is included for easy interaction with the agent.
 
 ## Project Structure
+```
 flight_search_agent/
 ├── agent.py                  # Main agent logic (ADK, Gemini, tools)
 ├── mcp_client.py             # Handles communication with MCP server
@@ -15,7 +16,7 @@ flight_search_agent/
 ├── README.md
 ├── .gitignore
 └── venv/       
-
+```
 ## Setup and Installation
 
 1.  **Clone the repository (if applicable):**
