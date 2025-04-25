@@ -1,3 +1,4 @@
 # config.py
-GOOGLE_API_KEY= AIzaSyAqYJGaIIUv-Ew6EgHYzJB7X1hqgrV-wzE
+GOOGLE_API_KEY= "AIzaSyAqYJGaIIUv-Ew6EgHYzJB7X1hqgrV-wzE"
+MCP_SERVER_URL = "680b958b41bb52da5be26cd5"
 # Add any other configuration like API keys if needed
