@@ -13,15 +13,15 @@ flight_search_agent/
 ├── ui.py                     # Streamlit user interface
 ├── requirements.txt
 ├── README.md
-└── .gitignore
-└── venv/                     
+├── .gitignore
+└── venv/       
 
 ## Setup and Installation
 
 1.  **Clone the repository (if applicable):**
     ```bash
-    git clone <your_repository_url>
-    cd flight_search_agent
+    git clone <https://github.com/surak-alf/flight_search_agent>
+
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
