@@ -1,4 +1,5 @@
 # mcp_client.py
+from mcp.server.fastmcp import FastMCP
 import requests
 from config import MCP_SERVER_URL
 
