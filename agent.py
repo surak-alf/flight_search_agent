@@ -1,6 +1,10 @@
 import os
 from mcp_client import MCPClient
+from mcp.client.stdio import stdio_client
 from prompts import create_flight_search_prompt, create_result_formatting_prompt
+from google import genai
+from google.genai import types
+from mcp import ClientSession, StdioServerParameters
 import google.generativeai as genai
 from config import GOOGLE_API_KEY  
 
