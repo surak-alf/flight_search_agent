@@ -1,5 +1,3 @@
-# prompts.py
-
 def create_flight_search_prompt(user_query: str):
     """
     Creates a prompt for Gemini to extract flight search parameters.
