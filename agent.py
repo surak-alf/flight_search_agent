@@ -5,12 +5,12 @@ from prompts import create_flight_search_prompt, create_result_formatting_prompt
 import google.generativeai as genai
 from config import GOOGLE_API_KEY  
 
-# Configure Gemini API (replace with your actual API key)
+# Gemini API 
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
     raise ValueError("Please set the GOOGLE_API_KEY environment variable.")
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash') # Or 'gemini-pro-vision' for multimodal
+model = genai.GenerativeModel('gemini-2.0-flash') 
 
 class FlightSearchAgent:
     def __init__(self):
