@@ -1,4 +1,3 @@
-# agent.py
 import os
 from mcp_client import MCPClient
 from prompts import create_flight_search_prompt, create_result_formatting_prompt
