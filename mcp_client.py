@@ -1,4 +1,3 @@
-# mcp_client.py
 from mcp.server.fastmcp import FastMCP
 import requests
 from config import MCP_SERVER_URL
@@ -35,7 +34,7 @@ class MCPClient:
             print(f"Error communicating with MCP server: {e}")
             return None
 
-# Example usage (you'll likely call this from your agent)
+# Example usage 
 if __name__ == "__main__":
     client = MCPClient()
     results = client.search_flights(origin="London", destination="New York", date="2025-05-10")
