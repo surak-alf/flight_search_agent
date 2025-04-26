@@ -2,10 +2,8 @@
 import os
 from mcp_client import MCPClient
 from prompts import create_flight_search_prompt, create_result_formatting_prompt
-
-# You'll need to install the Gemini API client: pip install google-generativeai
 import google.generativeai as genai
-from config import GOOGLE_API_KEY  # Import config settings if needed
+from config import GOOGLE_API_KEY  
 
 # Configure Gemini API (replace with your actual API key)
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
